@@ -1,6 +1,6 @@
-.{
-    padding: 0;
+. {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -149,7 +149,7 @@
 
 .Nigeria-container {
     margin-top: 100px;
-    margin: 70px 345px;
+    margin: 70px 300px;
 }
 .Nigeria {
     font-family: DM Serif Display;
@@ -168,12 +168,12 @@
     margin-bottom: 30px;
 }
 .Nigeria-img {
-    width: 1300px;
+    width: 1250px;
 }
 .section-head {
     margin: 0 200px;
     padding: 50px;
-    padding-top: 70px;
+    padding-top: 40px;
     background-color: #edf6fd;
 }
 .container {
@@ -181,14 +181,30 @@
     justify-content: space-between;
 }
 .card {
-    border: 1px solid #e0e9ef;
+    border: 0.5px solid #e0e9ef;
+    
 }
+.card-title {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+}
+.pt {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #48b6f6;
+    text-decoration: none;
+}
+
 .customers {
     font-family: DM Serif Display;
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
     padding: 30px;
+    color: #384a62;
 
 }
 .section-head2 {
@@ -205,17 +221,95 @@
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
+    color: #384a62;
     
 }
 
 .items2 {
     width: 500px;
-    padding-left: 100px;
 }
 .articles {
-    margin: 0 345px;
+    margin: 0 200px;
+    background-color: #f7f6f4;
+    padding: 70px 120px;
+}
+.customers3 {
+    font-family: DM Serif Display;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    padding: 30px 0;
+    color: #384a62;
+
 }
 .container3 {
     display: flex;
     justify-content: space-between;
 }
+.read-the-article {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: #506683;
+    margin: 100px 0;
+}
+.section-head4 {
+    background-color: #384a62;
+    margin: 0 200px;
+}
+.container4 {
+    margin:  0 120px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 160px;
+    
+    padding: 70px 0;
+}
+.item4 {
+    padding: 0 0px;
+}
+
+.down-h4 {
+    color: #ece8d9;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.item4 li {
+    list-style: none;
+}
+.item4 li a {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 600;
+    color: #fffff5;
+    text-decoration: none;
+}
+.down-h4b {
+    color: #ece8d9;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+.follow-link-img {
+    margin: 0 8px;
+}
+
+.container5 {
+    background-color: #cbcac8;
+    margin: 0 200px;
+    padding: 30px 590px;
+}
+.item5 {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #384a62;
+}
+
