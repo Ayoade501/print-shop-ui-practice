@@ -8,11 +8,38 @@
     display: flex;
     justify-content: center !important;
     margin: 0 210px;
+    
+}
+.num {
+    color: #1da6f2;
+    font-family: sans-serif;
+    font-size: 12.9px;
+    font-family: 600;
+    line-height: 19.35px;
+}
+li {
+    list-style: none;
+}
+.nav-link {
+    color: black;
+}
+.btn1 {
+    border-radius: 30px;
+    padding: 3px 10px;
+    border: 1px solid #cbcac8;
+}
+.btn {
+    background-color: #d77f81;
+    border: none;
 }
 
 .nav-div {
     margin: 0 200px;
-
+    font-family: sans-serif;
+    font-size: 12.9px;
+    font-family: 600;
+    line-height: 19.35px;
+    color: #f7f6f4;
 }
 
 .nav-bar {
@@ -21,6 +48,7 @@
     display: flex;
     justify-content: space-between;
     background-color: #ece8d9;
+    height: 64px;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -38,6 +66,9 @@
     line-height: 21.75px;
     font-weight: 600;
     color:  #708095;
+}
+.sign-in {
+    color: #d77f81;
 }
 
 .flex-container {
@@ -80,24 +111,42 @@
 }
 
 .h4 {
-    padding-bottom: 30px;
+    padding-bottom: 25px;
     font-family: sans-serif;
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
     color: #708095;
 }
-.search.label {
-    font-family: san-serif;
-    font-size: 17px;
+.search-label {
+    font-family: sans-serif;
+    font-size: 16px;
     line-height: 24px;
-    font-weight: 800;
+    font-weight: 700;
     color: #384a62;
+    padding: 10px 0;
 }
 .search {
     padding: 30px;
     width: 600px;
     border: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #b0b8c2;
+}
+.search-wrapper{
+    position: relative;
+    display: inline-block;
+}
+.search-icon {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 22px;
+    pointer-events: none;
 }
 
 .img-1 {
@@ -208,9 +257,9 @@
 
 }
 .section-head2 {
-    margin: 0 345px;
+    margin: 50px 345px;
     padding: 50px;
-    padding-top: 70px;
+    /* padding-top: 70px; */
 }
 .container2 {
     display: flex;
@@ -311,5 +360,18 @@
     font-weight: 400;
     line-height: 24px;
     color: #384a62;
+}
+.last {
+    background-color: #f7279e;
+    color: #f7f6f4;
+    padding: 7px 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
 }
 
