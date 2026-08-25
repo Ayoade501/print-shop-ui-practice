@@ -41,7 +41,6 @@ li {
     line-height: 19.35px;
     color: #f7f6f4;
 }
-
 .nav-bar {
     margin: 0 200px;
     padding: 20px 100px;
@@ -52,9 +51,6 @@ li {
     position: sticky;
     top: 0;
     z-index: 999;
-
-
-
 }
 .nav-list {
     display: flex;
