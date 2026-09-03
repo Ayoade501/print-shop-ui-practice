@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .navbar {
     display: flex;
     justify-content: center !important;
@@ -65,6 +66,7 @@ li {
 .sign-in {
     color: #d77f81;
 }
+
 .flex-container {
     display: flex;
     justify-content: space-between;
@@ -85,6 +87,9 @@ li {
     padding-left: 150px;
     padding-top: 90px;
 }
+    
+
+
 .flex-item2 {
    padding-top: 100px;
 }
